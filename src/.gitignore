@@ -1,0 +1,10 @@
+*.log
+simv*
+*.fsdb
+novas.*
+verdiLog
+csrc
+core/
+vc_hdrs.h
+ucli.key
+urg*
