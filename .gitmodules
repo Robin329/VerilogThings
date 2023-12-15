@@ -1,0 +1,3 @@
+[submodule "doc/verilog-doc"]
+	path = doc/verilog-doc
+	url = git@github.com:Yvan-xy/verilog-doc.git
