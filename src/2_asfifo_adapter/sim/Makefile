@@ -27,6 +27,7 @@ ifeq ($(SIM),xrun)
 else
      ifeq ($(SIM),vcs)
 	@echo "SIM is $(SIM) and dubug support verdi"
+	@mkdir -p vcs
 	@cd ./vcs && rm -rf *
 	@cd ./vcs && vcs $(OPTION_VCS)
      else
